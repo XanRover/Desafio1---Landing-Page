@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+
+#head #top-information{
+    background-color: #303030;
+    height: 360px;
+    list-style: Display xl/SemiBold;
+    font-family: Inter;
+    font-size: 28px;
+    color: #FFF;
+    align-content: center;
+    padding-left: 62px;
+}
+
+#head h1{
+    font-weight: 600;
+    font-size: 72px;
+    letter-spacing: -0.025em;
+}
+
+body #text-iformation{
+    height: 229px;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+#text-iformation img{
+    width: 300px;
+    height: 88px;
+}
+#main-container{
+    height: 720px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#main-container h1, #main-container p{
+    margin: 40px 0 ;
+    width: 735px;
+}
+
+#main-container h1{
+    font-family: Inter;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;    
+}
+
+#main-container p{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+}
+
+#main-container img{
+    width: 500px;
+    height: 600px;
+}
+
+#action{
+    padding-top: 80px;
+    background-color: #303030;
+    list-style: Display xl/SemiBold;
+    font-family: Inter;
+    font-size: 18px;
+    letter-spacing: -0.025em;
+    color: #FFF;
+    text-align: center;
+}
+
+form{
+    margin-top: 40px;
+}
+
+input::placeholder {
+    color: #999; /* Cor do texto do placeholder */
+    font-size: 16px; /* Estilo da fonte do placeholder */
+}
+
+input{
+    width: 400px;
+    height: 60px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+button{
+    margin: 50px 0;
+    font-family: Inter;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    width: 300px;
+    height: 55px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #C07212;
+    transition: 0.5s
+}
+button:hover{
+    color: #d1d1d1;
+    background-color: #935303;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 10px 16px 0 #000000
+}
